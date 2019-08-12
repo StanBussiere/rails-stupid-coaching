@@ -1,0 +1,62 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$charcoal: #383F51;
+
+body {
+  background: $charcoal;
+  text-align: center;
+  font-family: 'courier new';
+}
+
+h1 {
+  color: rgb(240,240,240);
+  font-family: 'courier new';
+}
+
+h2 {
+  color: rgb(220,220,220);
+}
+
+p {
+  color: rgb(200,200,200);
+}
+.form{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btn-submit{
+  padding: 10px 15px;
+  font-family: 'courier new';
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(200,200,200);
+}
+
+.btn-submit:hover {
+  background-color: rgb(180,180,180);
+  transition: 0.2s;
+}
+.txt-input{
+  padding: 10px 15px;
+  font-family: 'courier new';
+  border-radius: 5px;
+  border-style: none;
+
+}
+
+.link{
+  text-decoration: none;
+  color: rgb(20,20,20);
+  font-family: 'courier new';
+  padding: 10px 15px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(200,200,200);
+}
+
+.link:hover{
+  background-color: rgb(180,180,180);
+  transition: 0.2s
+}
